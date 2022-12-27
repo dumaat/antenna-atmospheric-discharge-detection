@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CPTemplate>
+  <CPSheet>
+    <GroupBox Label="Groupbox" PropName="Groupbox2" DefaultState="Expanded">
+      <Control Label="Document Type" PropName="Document Type" ApplyTo="Global" Type="ComboBox" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>General Assembly</Item>
+          <Item>Assembly</Item>
+        </Data>
+      </Control>
+      <Control Label="Description" PropName="Description" ApplyTo="Global" Type="TextBox" DefaultValue="" Mode="Text" />
+      <Control Label="Material" PropName="Material" ApplyTo="Global" Type="TextBox" DefaultValue="See BoM" Mode="Text" />
+      <Control Label="Finish" PropName="Finish" ApplyTo="Config" Type="ComboBox" UserDefineable="False">
+        <Data Path="" SourceType="List">
+          <Item>As Supplied</Item>
+          <Item>See Notes</Item>
+          <Item>TBN</Item>
+        </Data>
+      </Control>
+      <Control Label="Drawing No." PropName="Drawing No." ApplyTo="Global" Type="TextBox" DefaultValue="" Mode="Text" />
+      <Control Label="Revision" PropName="Revision" ApplyTo="Global" Type="ComboBox" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>01</Item>
+          <Item>02</Item>
+          <Item>03</Item>
+          <Item>04</Item>
+        </Data>
+      </Control>
+      <Control Label="Supplier" PropName="Supplier" ApplyTo="Global" Type="ComboBox" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>TBN</Item>
+          <Item>Farnell</Item>
+          <Item>WDS</Item>
+          <Item>RS</Item>
+        </Data>
+      </Control>
+      <Control Label="Part No." PropName="Part No." ApplyTo="Global" Type="TextBox" DefaultValue="" Mode="Text" />
+      <Control Label="Weight" PropName="Weight" ApplyTo="Global" Type="TextBox" DefaultValue="SW-Mass" Mode="SWProperty" />
+      <Control Label="DrawnBy" PropName="DrawnBy" ApplyTo="Global" Type="ComboBox" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>Name 1</Item>
+          <Item>Name 2</Item>
+          <Item>Name 3</Item>
+          <Item>Name 4</Item>
+          <Item>Name 5</Item>
+        </Data>
+      </Control>
+      <Control Label="DrawnDate" PropName="DrawnDate" ApplyTo="Global" Type="TextBox" DefaultValue="" Mode="Date" />
+      <Control Label="Checked/Approved By" PropName="CheckedBy" ApplyTo="Global" Type="ComboBox" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>Name 1</Item>
+          <Item>Name 2</Item>
+          <Item>Name 3</Item>
+          <Item>Name 4</Item>
+          <Item>Name 5</Item>
+        </Data>
+      </Control>
+      <Control Label="Checked/Approved Date" PropName="CheckedDate" ApplyTo="Global" Type="TextBox" DefaultValue="" Mode="Date" />
+    </GroupBox>
+  </CPSheet>
+</CPTemplate>
